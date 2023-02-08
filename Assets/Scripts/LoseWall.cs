@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
-public class LoseWall : MonoBehaviour {
-	public Direction position;
+public class LoseWall : MonoBehaviour
+{
+  public Direction position;
 }

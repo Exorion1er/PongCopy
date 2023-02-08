@@ -1,4 +1,5 @@
-public enum Direction {
-    left,
-    right
+public enum Direction
+{
+  left,
+  right
 }
