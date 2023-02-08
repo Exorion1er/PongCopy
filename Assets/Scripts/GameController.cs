@@ -31,6 +31,11 @@ public class GameController : MonoBehaviour
     status = Status.waiting;
   }
 
+  private void Update()
+  {
+    scoreText.GetComponent<TextMeshProUGUI>().text = scoreLeft + " - " + scoreRight;
+  }
+
   public void StartRound()
   {
     if (status != Status.waiting)
@@ -106,10 +111,5 @@ public class GameController : MonoBehaviour
     }
 
     Instantiate(PF_WinParticles, spawnPoint, Quaternion.Euler(rot));
-  }
-
-  private void Update()
-  {
-    scoreText.GetComponent<TextMeshProUGUI>().text = scoreLeft + " - " + scoreRight;
   }
 }

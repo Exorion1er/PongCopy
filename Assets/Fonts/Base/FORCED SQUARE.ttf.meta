@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f6667634c906b5c4588d458ee38d4665
+guid: 248e0756a69bcba48a870e0fe8a349ae
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Pixel Operator
+  - FORCED SQUARE
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

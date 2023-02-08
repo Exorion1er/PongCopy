@@ -1,5 +1,4 @@
-﻿using TMPro;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class InputController : MonoBehaviour
 {
@@ -10,8 +9,8 @@ public class InputController : MonoBehaviour
 
   private void Update()
   {
-    if (Input.GetKey(KeyCode.S))
-    { // Player left inputs
+    if (Input.GetKey(KeyCode.S)) // Player left inputs
+    {
       playerLeft.GoDown();
     }
     if (Input.GetKey(KeyCode.W))
@@ -19,8 +18,8 @@ public class InputController : MonoBehaviour
       playerLeft.GoUp();
     }
 
-    if (Input.GetKey(KeyCode.K))
-    { // Player right inputs
+    if (Input.GetKey(KeyCode.K)) // Player right inputs
+    {
       playerRight.GoDown();
     }
     if (Input.GetKey(KeyCode.I))
@@ -28,8 +27,8 @@ public class InputController : MonoBehaviour
       playerRight.GoUp();
     }
 
-    if (Input.GetKeyDown(KeyCode.Space))
-    { // Start Game 
+    if (Input.GetKeyDown(KeyCode.Space)) // Start Game
+    {
       game.StartRound();
     }
   }
